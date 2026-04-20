@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# Playwright persistent contexts live here (cookies, storage).
+# Each named profile (amazon, ebay, etsy) becomes a subdirectory.
+# These hold session secrets — never commit.
+.browser-data/
+
+# Claude Code local
+.claude/
