@@ -15,7 +15,8 @@
     "dev": "tsc --watch",
     "install-browser": "playwright install chromium",
     "example:ebay-login": "node dist/examples/ebay-login.js",
-    "example:amazon-login": "node dist/examples/amazon-login.js"
+    "example:amazon-login": "node dist/examples/amazon-login.js",
+    "example:import-cookies": "node dist/examples/import-cookies.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
