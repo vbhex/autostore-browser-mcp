@@ -6,14 +6,16 @@
   "private": true,
   "type": "module",
   "bin": {
-    "autostore-browser-mcp": "dist/index.js"
+    "autostore-browser-mcp": "dist/src/index.js"
   },
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "node dist/src/index.js",
     "dev": "tsc --watch",
-    "install-browser": "playwright install chromium"
+    "install-browser": "playwright install chromium",
+    "example:etsy-login": "node dist/examples/etsy-login.js",
+    "example:etsy-draft": "node dist/examples/etsy-draft-driver.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
