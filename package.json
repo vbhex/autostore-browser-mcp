@@ -14,8 +14,8 @@
     "start": "node dist/src/index.js",
     "dev": "tsc --watch",
     "install-browser": "playwright install chromium",
-    "example:etsy-login": "node dist/examples/etsy-login.js",
-    "example:etsy-draft": "node dist/examples/etsy-draft-driver.js"
+    "example:ebay-login": "node dist/examples/ebay-login.js",
+    "example:amazon-login": "node dist/examples/amazon-login.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
